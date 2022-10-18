@@ -1,0 +1,142 @@
+.wrapper{
+	position: relative;
+	overflow: hidden;
+	min-height: 100%;
+	width: 100%;
+}
+.container{
+	position: relative;
+}
+.container__content-moon {
+	position: absolute;
+	left: 50px;
+	top: 50px;
+	
+}
+.moon {
+	width: 150px;
+	height: 150px;
+	opacity: 0.5;
+	transform: rotate(0deg);
+	transition: all 0.3s ease 0s;
+}
+.moon:hover{
+	opacity:1;
+	transform: rotate(50deg);
+}
+.content__item-cats {
+	position: absolute;
+	top: 300px;
+	left: 150px;
+}
+.content__item-ellipse {
+	position: relative;
+	display: block;
+	transition: all 0.5s ease 0s;
+}
+.content__item-cats:hover .ellipse{
+	transform: rotate(360deg);
+	opacity: 1;
+}
+.content__item-cats:hover .cat{
+   transform: scale(1.2);
+	bottom: 10px;
+}
+.content__item-cats:hover .shade{
+	opacity: 0;
+}
+.ellipse {
+	width: 300px;
+	height:300px;
+	opacity: 0.5;
+	transform: rotate(0deg);
+	transition: all 0.3s ease 0s;
+}
+.cat {
+	width: 285px;
+	height: 266px;
+	position: absolute;
+	top: -30px;
+	left: 0;
+}
+.content__item-shade {
+	margin: 0 auto;
+	align-items: center;
+   padding: 30px 0;
+}
+.shade {
+	width: 200px;
+	height: 30px;
+	position: absolute;
+	top: 248px;
+	left: 49px;
+}
+.content__item-sphinx {
+	position: absolute;
+	top: 300px;
+	right: 150px;
+}
+.content__item-sphinx:hover .ellipse{
+	transform: rotate(-360deg);
+}
+.content__item-sphinx:hover .sphinx{
+	transform: scale(0.6);
+	opacity: 0.6;
+}
+.content__item-sphinx:hover .shade{
+	top: 200px;
+	transform: 0.6;
+	opacity: 0.6;
+}
+.sphinx{
+	width: 270px;
+	height: 180px;
+	position: absolute;
+	top: 45px;
+	left: 5px;
+}
+.content__item-tutankhmun {
+   position: absolute;
+	top: 550px;
+	left: 500px;
+}
+.content__item-tutankhmun:hover .star{
+	transform: skew(10deg, 8deg);
+	opacity: 0.8;
+}
+.content__item-tutankhmun:hover .tutankhmun{
+	transform: rotate(-38deg);
+	opacity: 0.6;
+	bottom: 10px;
+}
+.content__item-tutankhmun:hover .found{
+	transform: scale(3);
+}
+.content__item-star {
+	position: relative;
+}
+.star {
+	width: 300px;
+	height: 340px;
+	opacity: 0.3;
+	
+}
+.tutankhmun {
+	width: 200px;
+	height: 265px;
+	position: absolute;
+	top: 15px;
+	left: 50px;
+	transform: rotate(0deg);
+	transition: all 0.3s ease 0s;
+}
+.found {
+	width: 220px;
+	height: 60px;
+   position: absolute;
+	top: 280px;
+	left: 40px;
+}
+
+
+
